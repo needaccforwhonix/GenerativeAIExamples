@@ -1,50 +1,38 @@
-# Python Exclusions
-.venv
-**__pycache__**
-
-# Helm Exclusions
-**/helm-charts/*.tgz
-
-# Docker Compose exclusions
-RAG/examples/**/volumes
-uploaded_files/
-
-
-# Mac OS exclusions
-.DS_Store
-
-# Visual Studio Code
-.vscode
-
-# Node modules
-**/node_modules
-
-# File from docs builds
-docs/_*
-docs/notebooks
-docs/experimental
-docs/tools
-
-# Developing examples
-RAG/examples/simple_rag_api_catalog/
-RAG/examples/simple-rag-api-catalog.yaml
-
-# Notebook checkpoints
-RAG/notebooks/langchain/.ipynb_checkpoints
-RAG/notebooks/langchain/data/nv_embedding
-RAG/notebooks/langchain/data/save_embedding
-
-# IntelliJ's project specific settings file
-.idea
-
-# Environment variables
-.env
-
-# egg-info directories
-**/egg-info
-
-# uv exclusion
-uv.lock
 
 # data designer exclusion
 data-designer-tutorial-output/
+data-designer-tutorial-output/# Python Exclusions
+# Developing examples
+# Docker Compose exclusions
+docs/_*
+docs/experimental
+docs/notebooks
+docs/tools
+.DS_Store
+**/egg-info
+# egg-info directories
+.env
+# Environment variables
+# File from docs builds
+**/helm-charts/*.tgz
+# Helm Exclusions
+.idea
+# IntelliJ's project specific settings file
+# Mac OS exclusions
+**/node_modules
+# Node modules
+# Notebook checkpoints
+**__pycache__**
+# Python Exclusions
+RAG/examples/simple_rag_api_catalog/
+RAG/examples/simple-rag-api-catalog.yaml
+RAG/examples/**/volumes
+RAG/notebooks/langchain/data/nv_embedding
+RAG/notebooks/langchain/data/save_embedding
+RAG/notebooks/langchain/.ipynb_checkpoints
+uploaded_files/
+# uv exclusion
+uv.lock
+.venv
+# Visual Studio Code
+.vscode
